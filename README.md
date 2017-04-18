@@ -10,14 +10,17 @@ The design is i386 with x86-64.
 If you're using the same system, follow the following steps to run the program
 
 To compile the file,
+
     `$ nasm -f elf64 filename.asm`
     
 To link the file,
+
     `$ ld -s -o filename filename.o`
     
 To run the file, 
+
     `$ ./filename`
     
     
 You're done!
-If you're using a differnt version, just Google it. Remember, Google is our friend.
+If you're using a different version, just Google it. Remember, Google is our friend. :-*
